@@ -1,0 +1,23 @@
+[package]
+org = "njadm"
+name = "logistics_system"
+version = "0.1.0"
+distribution = "2201.7.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "ballerinax"
+name = "kafka"
+version = "3.8.0"
+
+[[dependency]]
+org = "ballerinax"
+name = "mysql"
+version = "1.10.0"
+
+[[platform.java11.dependency]]
+groupId = "mysql"
+artifactId = "mysql-connector-java"
+version = "8.0.26"
